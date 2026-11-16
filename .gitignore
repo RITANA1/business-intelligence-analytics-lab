@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.DS_Store
+
+# Raw Olist dataset (download separately)
+01_olist_marketplace_analytics/data/*.csv
+
+# Generated files
+01_olist_marketplace_analytics/models/*
+01_olist_marketplace_analytics/reports/*
