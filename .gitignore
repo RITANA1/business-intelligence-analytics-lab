@@ -1,13 +1,13 @@
+# Raw and processed datasets
+01_olist_marketplace_analytics/data/
+01_olist_marketplace_analytics/data_cleaned/
+
+# Python
 __pycache__/
-*.py[cod]
+*.pyc
 .venv/
-venv/
-.env
+
+# System files
 .DS_Store
-
-# Raw Olist dataset (download separately)
-01_olist_marketplace_analytics/data/*.csv
-
-# Generated files
-01_olist_marketplace_analytics/models/*
-01_olist_marketplace_analytics/reports/*
+Thumbs.db
+01_olist_marketplace_analytics/reports/order_logistics_metrics.csv
